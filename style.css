@@ -1,0 +1,527 @@
+html {
+    scroll-behavior: smooth;
+    }
+
+.mybody {
+    margin: 0px;
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    color: #000000;
+    /*width: 1440px; */
+}
+
+.hero {
+    height: 100vh;
+    background-image: url(./img/1_hero/JPG/hero_bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 160px;
+    padding-right: 160px;
+    height: 112px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo {
+    height: 64px;
+    width: 64px;
+}
+
+.menubar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.menubar a {
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.menubar a:hover {
+    text-decoration: underline;
+}
+
+.menu_btn {
+    background-color: #9F0908;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid hsla(240, 7%, 97%, 1);
+    border-radius: 12px;
+    padding: 8px;
+    gap: 5px;
+}
+
+.menu_btn:hover {
+    background-color: #d56565;
+    text-decoration: none !important;
+}
+
+.phone {
+    height: 24px;
+    width: 24px;
+}
+
+.herocontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    padding-top: 250px;
+}
+
+.heroheadline {
+    font-weight: bold;
+    font-size: 96px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin: 0px;
+    color: #9F0908;
+    font-family: "Raleway", sans-serif;
+    font-weight:bold;
+    font-style: normal;
+    font-size: 80px;
+}
+
+h3 {
+    margin: 0px;
+    font-family: "Economica", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 56px;
+    margin-bottom: 16px;
+}
+
+.h2 {
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.htocontainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 64px;
+    padding-bottom: 120px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.htocontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.htopic {
+    margin-bottom: 16px;
+    width: 128px;
+}
+
+.ourmenu {
+    background-image: url(./img/3_section_our_menu/JPG/section_our_menu_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 120px;
+}
+
+.menumargin {
+    margin-bottom: 64px;
+}
+
+.menupicone {
+    width: 352px;
+    object-fit: cover;
+}
+
+.menupictwo {
+    width: 352px;
+    object-fit: cover;
+}
+
+.menupicthree {
+    width: 352px;
+    object-fit: cover;
+}
+
+.menusort {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 80px;
+    margin-left: 250px;
+}
+
+.menusortreverse {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 80px;
+    margin-top: 56px;
+    margin-bottom: 56px;
+    margin-right: 250px;
+}
+
+.tablesort {
+    display: flex;
+    flex-direction: column;
+}
+
+.tablecontent {
+    color: #675E54;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 32px;
+}
+
+td {
+    padding-bottom: 8px;
+}
+
+.price {
+    text-align: right;
+    padding-left: 200px;
+}
+
+.findus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loclogo {
+    width: 24px;
+}
+
+.adress {
+    padding-top: 8px;
+    padding-bottom: 64px; 
+}
+
+.maps {
+    width: 100%;
+    height: 1000px;
+}
+
+.maps iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    background-color: #0a141e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 136px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+.footerlogo {
+    height: 44px;
+}
+
+.footerlogoalt {
+    display: none;
+}
+
+.footersocmedlogo{
+    width: 40px;
+    height: 40px;
+}
+
+
+/*mobileconfig*/
+
+@media(max-width:1280px) {
+.hide-mobile1280 {
+    display: none;
+} 
+
+.span {
+    font-size: 20px;
+}
+
+.header {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.menubar a {
+    font-size: 20px;
+}
+
+.heroheadline {
+    font-size: 72px;
+}
+
+.h2 {
+    padding-top: 96px;
+}
+
+h2 {
+    font-size: 64px;
+}
+
+.htocontainer {
+    margin-top: 48px;
+    margin-left: 24px;
+    margin-right: 24px;
+    padding-bottom: 96px;
+}
+
+.htopic {
+    width: 112px;
+    margin-bottom: 8px;
+}
+
+h3 {
+    font-size: 32px;
+    margin-bottom: 0;
+}
+
+.menumargin {
+    margin-bottom: 48px;
+}
+
+.menusort {
+    gap: 24px;
+}
+
+.tablecontent {
+    font-size: 24px;
+}
+
+.price {
+    padding-left: 140px;
+}
+
+.food {
+    padding-top: 16px;
+}
+
+.menusortreverse {
+    gap: 24px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.ourmenu {
+    padding-bottom: 96px;
+}
+
+.adress {
+    padding-bottom: 48px;
+}
+
+.maps {
+        height: 700px;
+}
+
+.footer {
+    height: 144px;
+}
+
+}
+
+@media(max-width:773px) {
+
+.logo {
+    height: 40px;
+    width: 40px;
+}
+
+.menubar a {
+    font-size: 16px;
+}
+
+.heroheadline {
+    font-size: 44px;
+}
+
+.span {
+    font-size: 16px;
+}
+
+.h2 {
+    padding-top: 72px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.htocontainer {
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.htocontent{
+    padding-bottom: 32px;
+}
+
+.menumargin {
+    margin-bottom: 40px;
+}
+
+.menusort {
+    flex-direction: column;
+    gap: 16px;
+    margin-left: 0px;
+}
+
+.food {
+    padding-top: 8px;
+}
+
+.menusortreverse {
+    margin-right: 0px;
+    gap: 16px;
+    flex-direction: column;
+
+}
+
+.menupicone{
+    width: 343px;
+}
+
+.menupictwo{
+    width: 343px;
+}
+
+.menupicthree{
+    width: 343px;
+}
+
+.ourmenu {
+    padding-bottom: 72px;
+}
+
+.adress {
+    padding-bottom: 40px;
+    font-size: 16px;
+}
+
+.loclogo {
+    width: 18px;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+}
+
+.footer {
+    height: 86px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.footerlogo {
+    display: none;
+}
+
+.footerlogoalt {
+    display: block;
+    width: 40px;
+
+}
+
+.footersocmedlogo {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+}
+
+}
+
+@media(max-width:1448px) {
+.menusort {
+    margin-left: 0px;
+    justify-content: center;
+}
+
+.menusortreverse{
+    margin-right: 0px;
+    justify-content: center;
+}
+
+}
+
+
+
+@media(max-width:365px) {
+
+.heroheadline{
+    font-size: 36px;
+    }
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+.menupicone{
+    width: 250px;
+}
+
+.menupictwo{
+    width: 250px;
+}
+
+.menupicthree{
+    width: 250px;
+}
+
+.tablecontent {
+    font-size: 18px;
+
+}
+
+.price {
+    padding-left: 80px;;
+}
+
+.hide-mobile340 {
+    font-size: 12px;
+}
+
+.loclogo {
+    width: 12px;
+}
+
+
+.maps {
+        height: 400px;
+}
+
+}
+
